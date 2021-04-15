@@ -20,7 +20,16 @@ namespace _01_ByteBank
             //int numero2 = 864146;
             //double saldo2 = 50;
 
-            new ContaCorrente();
+            ContaCorrente contaDoLucas = new ContaCorrente();
+            contaDoLucas.titular = "Lucas Ferrari";
+            contaDoLucas.agencia = 863;
+            contaDoLucas.numero = 863452;
+            contaDoLucas.saldo = 100;
+
+            Console.WriteLine(contaDoLucas.titular);
+            Console.WriteLine(contaDoLucas.agencia);
+            Console.WriteLine(contaDoLucas.numero);
+            Console.WriteLine(contaDoLucas.saldo);
 
             Console.ReadLine();
         }
